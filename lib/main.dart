@@ -13,46 +13,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
       ), // ThemeData
       home: Scaffold(
           appBar: AppBar(
-            title: Text("Cubes"),
+            title: Text("Flutter"),
           ),
-          body: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Column(
-                children: [
-                  Container(
-                    color: Colors.red,
-                    height: 100,
-                    width: 100,
-                  ),
-                ],
-              ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Container(
-                    color: Colors.green,
-                    height: 100,
-                    width: 100,
-                  ),
-                ],
-              ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: [
-                  Container(
-                    color: Colors.yellow,
-                    height: 100,
-                    width: 100,
-                  ),
-                ],
-              ),
-            ],
-          )),
+          body: OutlinedButton(onPressed: () {}, child: Text("hello"),),
+      ),
     );
   }
 }
