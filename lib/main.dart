@@ -16,10 +16,19 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.green,
       ), // ThemeData
       home: Scaffold(
-          appBar: AppBar(
-            title: Text("Flutter"),
+        appBar: AppBar(
+          title: Text("Flutter"),
+        ),
+        body: Container(
+          margin: EdgeInsets.all(40),
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: OutlinedButton(
+              onPressed: () {},
+              child: Text("Hello World"),
+            ),
           ),
-          body: OutlinedButton(onPressed: () {}, child: Text("hello"),),
+        ),
       ),
     );
   }
