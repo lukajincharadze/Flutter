@@ -25,8 +25,8 @@ class MyApp extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    height: 500,
-                    width: 300,
+                    width: 380,
+                    height: 270,
                     decoration: BoxDecoration(
                       image: DecorationImage(
                         image: AssetImage(
@@ -43,6 +43,9 @@ class MyApp extends StatelessWidget {
                     color: Colors.red,
                     height: 100,
                     width: 100,
+                  ),
+                  SizedBox(
+                    width: 25,
                   ),
                   Container(
                     color: Colors.green,
