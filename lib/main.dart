@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
           body: Column(
             children: [
               SizedBox(
-                height: 15,
+                height: 15.5,
               ),
               Row(
               mainAxisAlignment: MainAxisAlignment.center,
