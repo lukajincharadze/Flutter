@@ -21,21 +21,17 @@ class MyApp extends StatelessWidget {
           ),
           body: Column(
             children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Container(
-                    width: 380,
-                    height: 270,
-                    decoration: BoxDecoration(
-                      image: DecorationImage(
-                        image: AssetImage(
-                            'assets/img/photo.jpg'),
-                      ),
-                    ),
-                  ),
-                ],
+              SizedBox(
+                height: 15,
               ),
+              Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                Image.asset(
+                  "assets/img/photo.jpg",
+                  width: 380,
+                ),
+              ]),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
